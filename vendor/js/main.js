@@ -128,7 +128,6 @@ function addToCart(product, qty, type='add') {
     cartDetail.subTotal = subTotal
     cartDetail.count = count
     localStorage.setItem("cartDetail", JSON.stringify(cartDetail))
-    alert('Completed add to cart! Please check cart now!')
 }
 function postRegister(self){
     event.preventDefault()
