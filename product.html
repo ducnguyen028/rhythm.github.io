@@ -602,7 +602,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-5 col-sm-5 col-xs-12">
-                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/1.jpg" style="width: 100%;" alt=""></div>
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="vendor/img/product/1.jpg" style="width: 100%;" alt=""></div>
                         </div>
                         <div class="col-md-7 col-sm-7 col-xs-12"> 
                             <div class="single-product-info">
@@ -795,30 +795,30 @@
                 if($(this).data('cate') == 'all'){
                     let param = getUpdatedParam("category", $(this).data('cate'), 'remove' )
                     console.log(param)
-                    window.location.href = '/product.html?'+param
+                    window.location.href = 'product.html?'+param
                 }else{
                     let param = getUpdatedParam("category", $(this).data('cate') )
-                    window.location.href = '/product.html?'+param
+                    window.location.href = 'product.html?'+param
                 }
             })
 
             $('.typeParent').click(function(e){
                 if(!$(this).is(':checked')){
                     let param = getUpdatedParam("type", $(this).val() , 'remove')
-                    window.location.href = '/product.html?'+param;
+                    window.location.href = 'product.html?'+param;
                 }else{
                     let param = getUpdatedParam("type", $(this).val() )
-                    window.location.href = '/product.html?'+param;
+                    window.location.href = 'product.html?'+param;
                 }
             })
 
             $('.releaseParent').click(function(e){
                 if(!$(this).is(':checked')){
                     let param = getUpdatedParam("release", $(this).val() , 'remove')
-                    window.location.href = '/product.html?'+param;
+                    window.location.href = 'product.html?'+param;
                 }else{
                     let param = getUpdatedParam("release", $(this).val() )
-                    window.location.href = '/product.html?'+param;
+                    window.location.href = 'product.html?'+param;
                 }
             })
             $(document).on('click', '.modalCart', function () {
