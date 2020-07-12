@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="vendor/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- Mean Menu -->
+    <link rel="stylesheet" href="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/meanmenu.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Main style -->
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- START HEADER -->
+        <header class="header-area header-wrapper">
+            <!-- TOP HEADER -->
+            <div class="header-top-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="call-us">
+                                <p class="roboto">(+88) 7979797979</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="top-link clearfix">
+                                <ul class="link">
+                                    <li>
+                                        <a href="membership.html">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                            My Account
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html">
+                                            <span class="glyphicon glyphicon-shopping-cart" id="countCart"></span>
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <li id="auth">
+                                        <a href="login.html">
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MENU HEADER  -->
+            <div class="header-middle-area" id="sticky-header">
+                <div class="container-fluid">
+                    <div class="full-width-mega-dropdown">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-12">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="vendor/img/logo/rhythm_house.png" alt="main logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+                                <nav>
+                                    <ul class="main-menu text-center">
+                                        <li><a href="index.html">Home</a>
+                                        </li>
+                                        <li class="mega-parent"><a href="product.html" style="color: #FF7F00; border-bottom:1px solid #FF7F00;">Products</a>
+                                            <div class="mega-menu-area clearfix">
+                                                <div class="mega-menu-link f-left">
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TYPE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=cd">CD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=dvd">DVD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=tape">Tape</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TIMES LIFESTYLE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=book">Book</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=magazine">Magazine</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">CATEGORIES</li>
+                                                        <li>
+                                                            <a href="/product.html?category=movie">Movies</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?category=music">Music</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">Band</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="mega-menu-photo f-left">
+                                                    <a href="#">
+                                                        <img src="vendor/img/mega-menu/1.jpg" alt="mega menu image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="membership.html">Membership</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)">Blog</a>
+                                            <ul class="dropdwn">
+                                                <li>
+                                                    <a href="liveshow.html">Liveshows</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contest.html">Contests</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Event</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="aboutus.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- START MOBILE MENU -->
+        <div class="mobile-menu-area hidden-lg hidden-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="product.html">Products</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/product.html?type=cd">CD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd">DVD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape">Tape</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book">Book</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine">Magazine</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:void(0)">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="liveshow.html">Liveshows</a>
+                                            </li>
+                                            <li>
+                                                <a href="contest.html">Contests</a>
+                                            </li>
+                                            <li>
+                                                <a href="news.html">Event</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MOBILE MENU -->
+
+        <!-- Start page content -->
+        <div id="page-content" class="page-wrapper">
+
+            <!-- SHOP SECTION START -->
+            <div class="shop-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-md-push-3 col-xs-12">
+                            <div class="shop-content">
+                                <!-- Tab Content start -->
+                                <div class="tab-content">
+                                    <!-- grid-view -->
+                                    <div role="tabpanel" class="tab-pane active" id="grid-view">
+                                        <div class="row" id="myProduct">
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                            <!-- product-item start -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <div class="product-item">
+                                                    <div class="product-img">
+                                                        <a href="single-product.html">
+                                                            <img src="vendor/img/product/7.jpg" alt=""/>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-info">
+                                                        <h6 class="product-title">
+                                                            <a href="single-product.html">Product Name </a>
+                                                        </h6>
+                                                        <div class="pro-rating">
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-half"></i></a>
+                                                            <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
+                                                        </div>
+                                                        <h3 class="pro-price">$ 869.00</h3>
+                                                        <ul class="action-button">
+                                                            <li>
+                                                                <a href="#" data-toggle="modal"  data-target="#productModal" title="Quickview"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#" title="Add to cart"><span class="
+                                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- product-item end -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Tab Content end -->
+                                <!-- shop-pagination start -->
+                                <!-- <ul class="shop-pagination text-center">
+                                    <li><a href="#"><span class="glyphicon glyphicon-menu-left"></span></a></li>
+                                    <li><a href="#">01</a></li>
+                                    <li><a href="#">02</a></li>
+                                    <li><a href="#">03</a></li>
+                                    <li><a href="#">...</a></li>
+                                    <li><a href="#">05</a></li>
+                                    <li class="active"><a href="#"><span class="glyphicon glyphicon-menu-right"></span></a></li>
+                                </ul> -->
+                                <!-- shop-pagination end -->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-pull-9 col-xs-12">
+                            <!-- widget-search -->
+                            <aside class="widget-search">
+                                <form action="product.html">
+                                    <input type="text" id="automplete-1" name="search" placeholder="Search here...">
+                                    <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </form>
+                            </aside>
+                            <!-- widget-categories -->
+                            <aside class="widget widget-categories">
+                                <h6 class="widget-title border-left">Categories</h6>
+                                <div id="cat-treeview" class="product-cat">
+                                    <ul>
+                                        <li class="categoryParent" data-cate="all"><a href="javascript:void(0)">All</a>
+                                        </li> 
+                                        <li class="categoryParent" data-cate="movie"><a href="javascript:void(0)">Movies</a>
+                                        </li>                                       
+                                        <li class="categoryParent" data-cate="music"><a href="javascript:void(0)">Music</a>
+                                        </li>
+                                        <li class="categoryParent" data-cate="poem"><a href="javascript:void(0)">Poem</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                            <!-- operating-system -->
+                            <aside class="widget">
+                                <h6 class="widget-title border-left">Types</h6>
+                                <form action="action_page.php">
+                                    <label><input class="widget-checkbox typeParent" type="checkbox" name="operating-1" value="cd">CD</label><br>
+                                    <label><input class="widget-checkbox typeParent" type="checkbox" name="operating-1" value="dvd">DVD</label><br>
+                                    <label><input class="widget-checkbox typeParent" type="checkbox" name="operating-1" value="tape">TAPE</label><br>
+                                    <label><input class="widget-checkbox typeParent" type="checkbox" name="operating-1" value="book">BOOK</label><br>
+                                    <label><input class="widget-checkbox typeParent" type="checkbox" name="operating-1" value="magazine">MAGAZINE</label><br>
+                                </form>
+                            </aside>
+                            <aside class="widget">
+                                <h6 class="widget-title border-left">Year</h6>
+                                <form action="action_page.php">
+                                    <label><input class="widget-checkbox releaseParent" type="checkbox" name="operating-1" value="this-year">This Year</label><br>
+                                    <label><input class="widget-checkbox releaseParent" type="checkbox" name="operating-1" value="60s">The 60s</label><br>
+                                    <label><input class="widget-checkbox releaseParent" type="checkbox" name="operating-1" value="70s">The 70s</label><br>
+                                </form>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SHOP SECTION END -->
+        </div>
+        <!-- End page content -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/1.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Dummy Product Name </h3>
+                                <h6 class="brand-name-2">brand name</h6>
+                                <h6 class="brand-name-3">brand name</h6>
+                                <h6 class="brand-name-4">brand name</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majo Rity have be suffered alteration in some form, by injected humou or randomis Rity have be suffered alteration in some form, by injected humou or randomis words which donot look even slightly believable. If you are going to use a passage Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-plus-minus clearfix">
+                                        <p class="color-title">Qty</p>
+                                        <div class="cart-plus-minus">
+                                            <input type="text" id="qtyModal" value="1" min="1" name="qtybutton" class="cart-plus-minus-box">
+                                        </div>   
+                                    </div>
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" data-id="" class="btn btn-primary modalCart">Add to cart</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- START FOOTER AREA -->
+        <footer id="footer" class="footer-area">
+            <div class="footer-top">
+                <div class="container-fluid">
+                    <div class="footer-wrapper">
+                        <div class="footer-top-inner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-sm-4">
+                                    <div class="single-footer footer-about">
+                                        <div class="footer-logo">
+                                            <img src="vendor/img/logo/logo.png" alt="">
+                                        </div>
+                                        <div class="footer-brief">
+                                            <p>Rhythm House is a music store in the city which offers not only music but contests and live shows too. It caters to almost all the age groups by providing the CDs, tapes of poems for kids, latest pop music collection for teenagers, etc. Rhythm House also caters to a slightly older age group and boasts of the largest collection of regional and devotional music.</p>
+                                        </div>
+                                        <ul class="footer-social">
+                                            <li>
+                                                <a class="facebook" href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" title="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">My Shop</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/product.html?type=cd"><span>CD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd"><span>DVD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape"><span>Tape</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book"><span>Book</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine"><span>Magazine</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">my account</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/membership.html"><span>My Account</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/cart.html"><span>My Cart</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/login.html"><span>Sign In</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/register.html"><span>Registration</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">Subscribe</h4>
+                                        <div class="footer-message">
+                                            <form action="#">
+                                                <input type="text" name="name" placeholder="Your name here...">
+                                                <input type="text" name="email" placeholder="Your email here...">
+                                                <button class="submit-btn" type="submit">Subcribe</button> 
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom black-bg">
+                <div class="container-fluid">
+                    <div class="footer-bottom-wrapper">
+                        <div class="copyright">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="copyright-text">
+                                        <p>&copy; <a href="#" target="_blank">Team5</a> 2020. All Rights Reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER AREA -->
+    </div>
+    <!-- jquery latest version -->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- Slick jquery carousel -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- Mean menu jquery -->
+    <script src="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/jquery.meanmenu.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="vendor/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var params={}
+            var products
+            var authorArr
+            window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+                params[key] = value;
+            });
+            
+            for (var [key, value] of Object.entries(params)) {
+                if (key == 'category') {
+                    $(`.categoryParent[data-cate=${value}]`).children().addClass('activeProduct')
+                }else if(key == 'type' || key == 'release'){
+                    $(`.${key}Parent[value=${value}]`).attr('checked', true)
+                }
+            }
+            
+            $.ajax({
+                url: 'json/product.json',
+                type: 'GET',
+            })
+            .done(function(data) {
+                products = data
+                authorArr = products.map(ele => ele.author)
+                getProduct(params, data)
+            });
+            
+            $('.categoryParent').click(function(e){
+                if($(this).data('cate') == 'all'){
+                    let param = getUpdatedParam("category", $(this).data('cate'), 'remove' )
+                    console.log(param)
+                    window.location.href = '/product.html?'+param
+                }else{
+                    let param = getUpdatedParam("category", $(this).data('cate') )
+                    window.location.href = '/product.html?'+param
+                }
+            })
+
+            $('.typeParent').click(function(e){
+                if(!$(this).is(':checked')){
+                    let param = getUpdatedParam("type", $(this).val() , 'remove')
+                    window.location.href = '/product.html?'+param;
+                }else{
+                    let param = getUpdatedParam("type", $(this).val() )
+                    window.location.href = '/product.html?'+param;
+                }
+            })
+
+            $('.releaseParent').click(function(e){
+                if(!$(this).is(':checked')){
+                    let param = getUpdatedParam("release", $(this).val() , 'remove')
+                    window.location.href = '/product.html?'+param;
+                }else{
+                    let param = getUpdatedParam("release", $(this).val() )
+                    window.location.href = '/product.html?'+param;
+                }
+            })
+            $(document).on('click', '.modalCart', function () {
+                let qty = $('#qtyModal').val()
+                let id = $('.modalProductId').val()
+                const product = products.find(ele => ele.id == id);
+                addToCart(product, parseInt(qty))
+                displayCart()
+            })
+
+            $(document).on('click', '.product-img, .product-title', function () {
+                let id = $(this).parent().data('id')
+                let product = products.filter(ele => ele.id == id)
+                addModal(product[0])
+                $('#exampleModal').modal('show')
+            })
+
+            $(document).on('click', '.addToCart', function () {
+                let id = $(this).parents('.product-info').data('id')
+                const product = products.find(ele => ele.id == id);
+                addToCart(product, 1)
+                displayCart()
+            })
+
+            $(document).ajaxComplete(function(){
+                $( "#automplete-1" ).autocomplete({
+                    minLength:2,   
+                    delay:500, 
+                    source: authorArr
+                });
+            })
+            
+        });
+        function getUpdatedParam($param, $value, $type='add') {
+            var params={};
+            window.location.search
+            .replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+                params[key] = value;
+            });
+            switch ($type) {
+                case 'add':
+                    params[$param] = $value;
+                    break;
+                case 'remove':
+                    delete params[$param]
+                    break;
+            }
+            var x = [];
+            for (p in params) {
+                x.push(p + "=" + params[p]);
+            }
+            return str_param = x.join("&");
+        }
+        function getProduct(params, data){
+            let items = data
+            for (var [key, value] of Object.entries(params)) {
+                switch (key) {
+                    case 'release':
+                        items = items.filter(function(ele){
+                            switch (value) {
+                                case 'this-year':
+                                return ele.release == 2020
+                                case '60s':
+                                return ele.release < 1970 && ele.release >1959
+                                case '70s':
+                                return ele.release < 1980 && ele.release >1969
+                            }
+                        })
+                        break;
+                    case 'search':
+                        items = items.filter(ele => ele.author == decodeURIComponent((value + '').replace(/\+/g, '%20')))
+                        break;
+                    default:
+                        items = items.filter(ele => ele[key] == value)
+                        break;
+                }
+            }
+            let x =``
+            items.forEach(ele => 
+                x+=`
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="product-item" data-id="${ele.id}">
+                        <div class="product-img">
+                            <a href="javascript:void(0)">
+                                <img src="${ele.image}" alt=""/>
+                            </a>
+                        </div>
+                        <div class="product-info" data-id="${ele.id}">
+                            <h6 class="product-title">
+                                <a href="javascript:void(0)">${ele.name}</a>
+                            </h6>
+                            <h6 class="pro-price">${ele.type.toUpperCase()}</h6>
+                            <h3 class="pro-price">${ele.price} Rs</h3>
+                            <ul class="action-button">
+                                <li>
+                                    <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                        glyphicon glyphicon-shopping-cart"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                `
+            );
+            $('#myProduct').html(x)
+        }
+
+        function addModal(data) {
+            let x =`
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="imgs-zoom-area"><img id="zoom_03" src="${data.image}" style="width: 100%;" alt=""></div>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12"> 
+                    <div class="single-product-info">
+                        <h3 class="text-black-1">${data.name} </h3>
+                        <h6 class="brand-name-2">${data.type.toUpperCase()} (${data.category.toUpperCase()})</h6>
+                        <h6 class="brand-name-3">Author: ${data.author}</h6>
+                        ${data.actor !== undefined ? `<h6 class="brand-name-3">Actor: ${data.actor}</h6>` :''}
+                        <!-- hr -->
+                        <hr>
+                        <!-- single-product-tab -->
+                        <div class="single-product-tab">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="description">
+                                    ${data.description}
+                                </div>
+                            </div>
+                        </div>
+                        <!--  hr -->
+                        <!-- plus-minus-pro-action -->
+                        <div class="plus-minus-pro-action">
+                            <div class="sin-plus-minus clearfix">
+                                <p class="color-title">Qty</p>
+                                <div class="cart-plus-minus">
+                                    <div class="dec qtybutton">-</div>
+                                    <input type="text" id="qtyModal" value="1" min="1" name="qtybutton" class="cart-plus-minus-box">
+                                    <div class="inc qtybutton">+</div>
+                                </div>   
+                            </div>
+                            <div class="sin-pro-action">
+                                <ul class="action-button">
+                                    <li>
+                                        <input type="hidden" value="${data.id}" class="modalProductId">
+                                        <button type="button" data-id="" class="btn btn-primary modalCart">Add to cart</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            `
+            $('.modal-body').html(x)
+        }
+    </script>
+</body>
+</html>

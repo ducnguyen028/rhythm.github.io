@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="vendor/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- Mean Menu -->
+    <link rel="stylesheet" href="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/meanmenu.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- Main style -->
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- START HEADER -->
+        <header class="header-area header-wrapper">
+            <!-- TOP HEADER -->
+            <div class="header-top-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="call-us">
+                                <p class="roboto">(+88) 7979797979</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="top-link clearfix">
+                                <ul class="link">
+                                    <li>
+                                        <a href="membership.html">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                            My Account
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html">
+                                            <span class="glyphicon glyphicon-shopping-cart" id="countCart"></span>
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <li id="auth">
+                                        <a href="login.html">
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MENU HEADER  -->
+            <div class="header-middle-area" id="sticky-header">
+                <div class="container-fluid">
+                    <div class="full-width-mega-dropdown">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-12">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="vendor/img/logo/rhythm_house.png" alt="main logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+                                <nav>
+                                    <ul class="main-menu text-center">
+                                        <li><a href="index.html">Home</a>
+                                        </li>
+                                        <li class="mega-parent"><a href="product.html" >Products</a>
+                                            <div class="mega-menu-area clearfix">
+                                                <div class="mega-menu-link f-left">
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TYPE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=cd">CD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=dvd">DVD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=tape">Tape</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TIMES LIFESTYLE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=book">Book</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=magazine">Magazine</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">CATEGORIES</li>
+                                                        <li>
+                                                            <a href="/product.html?category=movie">Movies</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?category=music">Music</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">Band</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="mega-menu-photo f-left">
+                                                    <a href="#">
+                                                        <img src="vendor/img/mega-menu/1.jpg" alt="mega menu image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="membership.html" style="color: #FF7F00; border-bottom:1px solid #FF7F00;">Membership</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)">Blog</a>
+                                            <ul class="dropdwn">
+                                                <li>
+                                                    <a href="liveshow.html">Liveshows</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contest.html">Contests</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Event</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="aboutus.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- START MOBILE MENU -->
+        <div class="mobile-menu-area hidden-lg hidden-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="product.html">Products</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/product.html?type=cd">CD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd">DVD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape">Tape</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book">Book</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine">Magazine</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:void(0)">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="liveshow.html">Liveshows</a>
+                                            </li>
+                                            <li>
+                                                <a href="contest.html">Contests</a>
+                                            </li>
+                                            <li>
+                                                <a href="news.html">Event</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MOBILE MENU -->
+
+        <section id="page-content" class="page-wrapper">
+
+            <!-- ABOUT SECTION START -->
+            <div class="about-section" style="margin-bottom: 80px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-left ">
+                                <h2 class="uppercase">Membership Information</h2>
+                                <h6 class="mb-40">There are many benefits and offers for Rhythm House's members</h6>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="about-photo p-20">
+                                <img src="/vendor/img/others/vip.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="about-membership">
+                                <p>Enjoy exclusive VIP membership program with many perks as below:</p>
+                                <ul>
+                                    <li>Receive points whenever you make a purchase on website</li>
+                                    <li>Exchange point into discount code for all the products</li>
+                                </ul>
+                                <p>Point exchange rate: 1 points = Rs. 10 </p>
+                                <p>In order to become VIP member, all you need to do is register and purchase with total of Rs. 200.</p>
+                                <p>Below are discount code that you can exhange point into (apply for total bill):</p>
+                                <ul>
+                                    <li>50000 points = 5% coupon x 10</li>
+                                    <li>100000 points = 10% coupon x 10</li>
+                                    <li>150000 points = 15% coupon x 10</li>
+                                </ul>
+                                <br>
+                                <div id="point">
+                                    <h4><a href="/register.html">Sign up</a> now and become our VIP membership</h4>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ABOUT SECTION END -->        
+        </section>
+
+        <!-- START FOOTER AREA -->
+        <footer id="footer" class="footer-area">
+            <div class="footer-top">
+                <div class="container-fluid">
+                    <div class="footer-wrapper">
+                        <div class="footer-top-inner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-sm-4">
+                                    <div class="single-footer footer-about">
+                                        <div class="footer-logo">
+                                            <img src="vendor/img/logo/logo.png" alt="">
+                                        </div>
+                                        <div class="footer-brief">
+                                            <p>Rhythm House is a music store in the city which offers not only music but contests and live shows too. It caters to almost all the age groups by providing the CDs, tapes of poems for kids, latest pop music collection for teenagers, etc. Rhythm House also caters to a slightly older age group and boasts of the largest collection of regional and devotional music.</p>
+                                        </div>
+                                        <ul class="footer-social">
+                                            <li>
+                                                <a class="facebook" href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" title="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">My Shop</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/product.html?type=cd"><span>CD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd"><span>DVD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape"><span>Tape</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book"><span>Book</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine"><span>Magazine</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">my account</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/membership.html"><span>My Account</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/cart.html"><span>My Cart</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/login.html"><span>Sign In</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/register.html"><span>Registration</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">Subscribe</h4>
+                                        <div class="footer-message">
+                                            <form action="#">
+                                                <input type="text" name="name" placeholder="Your name here...">
+                                                <input type="text" name="email" placeholder="Your email here...">
+                                                <button class="submit-btn" type="submit">Subcribe</button> 
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom black-bg">
+                <div class="container-fluid">
+                    <div class="footer-bottom-wrapper">
+                        <div class="copyright">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="copyright-text">
+                                        <p>&copy; <a href="#" target="_blank">Team5</a> 2020. All Rights Reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER AREA -->
+    </div>
+    <!-- jquery latest version -->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- Slick jquery carousel -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- Mean menu jquery -->
+    <script src="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/jquery.meanmenu.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="vendor/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var point = localStorage.getItem("point") || 0
+            var auth = localStorage.getItem('auth') || false
+            var x = ``
+            if (auth) {
+                x = `
+                <h4 style="color: #FF7F00;">Your point: ${point}</h4>
+                <p>Ps: Please contact our hotline (0797979797) or visit our store to receive a voucher</p>
+                `
+            }else{
+                x = `
+                <h4><a href="/register.html">Sign up</a> or <a href="/login.html">Login</a> now and become our VIP membership</h4>
+                `
+            }
+            $('#point').html(x)
+        })
+    </script>
+</body>
+</html>

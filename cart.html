@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="vendor/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- Mean Menu -->
+    <link rel="stylesheet" href="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/meanmenu.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- Main style -->
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- START HEADER -->
+        <header class="header-area header-wrapper">
+            <!-- TOP HEADER -->
+            <div class="header-top-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="call-us">
+                                <p class="roboto">(+88) 7979797979</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="top-link clearfix">
+                                <ul class="link">
+                                    <li>
+                                        <a href="membership.html">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                            My Account
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html">
+                                            <span class="glyphicon glyphicon-shopping-cart" id="countCart"></span>
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <li id="auth">
+                                        <a href="login.html">
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MENU HEADER  -->
+            <div class="header-middle-area" id="sticky-header">
+                <div class="container-fluid">
+                    <div class="full-width-mega-dropdown">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-12">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="vendor/img/logo/rhythm_house.png" alt="main logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+                                <nav>
+                                    <ul class="main-menu text-center">
+                                        <li><a href="index.html">Home</a>
+                                        </li>
+                                        <li class="mega-parent"><a href="product.html" style="color: #FF7F00; border-bottom:1px solid #FF7F00;">Products</a>
+                                            <div class="mega-menu-area clearfix">
+                                                <div class="mega-menu-link f-left">
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TYPE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=cd">CD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=dvd">DVD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=tape">Tape</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TIMES LIFESTYLE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=book">Book</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=magazine">Magazine</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">CATEGORIES</li>
+                                                        <li>
+                                                            <a href="/product.html?category=movie">Movies</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?category=music">Music</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">Band</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="mega-menu-photo f-left">
+                                                    <a href="#">
+                                                        <img src="vendor/img/mega-menu/1.jpg" alt="mega menu image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="membership.html">Membership</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)">Blog</a>
+                                            <ul class="dropdwn">
+                                                <li>
+                                                    <a href="liveshow.html">Liveshows</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contest.html">Contests</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Event</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="aboutus.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- START MOBILE MENU -->
+        <div class="mobile-menu-area hidden-lg hidden-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="product.html">Products</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/product.html?type=cd">CD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd">DVD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape">Tape</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book">Book</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine">Magazine</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:void(0)">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="liveshow.html">Liveshows</a>
+                                            </li>
+                                            <li>
+                                                <a href="contest.html">Contests</a>
+                                            </li>
+                                            <li>
+                                                <a href="news.html">Event</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MOBILE MENU -->
+
+        <!-- Start page content -->
+        <section id="page-content" class="page-wrapper">
+
+            <!-- SHOP SECTION START -->
+            <div class="shop-section mb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-12">
+                            <ul class="cart-tab">
+                                <li>
+                                    <a class="active" id="btnCart" href="#shopping-cart" data-toggle="tab">
+                                        <span>01</span>
+                                        Shopping cart
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="btnCheckout" href="#checkout" data-toggle="tab">
+                                        <span>02</span>
+                                        Checkout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-10 col-sm-12">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <!-- shopping-cart start -->
+                                <div class="tab-pane active" id="shopping-cart">
+                                    <div class="shopping-cart-content">
+                                        <form action="#">
+                                            <div class="table-content table-responsive" style="margin-bottom: 50px;">
+                                                <table class="text-center">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="product-thumbnail">product</th>
+                                                            <th class="product-price">price</th>
+                                                            <th class="product-quantity">Quantity</th>
+                                                            <th class="product-subtotal">total</th>
+                                                            <th class="product-remove">remove</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="cart">
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="payment-details box-shadow">
+                                                        <h6 class="widget-title border-left mb-20">payment details</h6>
+                                                        <table>
+                                                            <tr>
+                                                                <td class="td-title-1">Cart Subtotal</td>
+                                                                <td class="td-title-2" id="subtotal"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-title-1">Vat(10%)</td>
+                                                                <td class="td-title-2" id="vat"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="order-total">Order Total</td>
+                                                                <td class="order-total-price" id="total"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- shopping-cart end -->
+                                <!-- checkout start -->
+                                <div class="tab-pane" id="checkout">
+                                    <div class="checkout-content">
+                                        <form action="" onsubmit="sendNotify(this)">
+                                            <div class="row">
+                                                <!-- billing details -->
+                                                <div class="col-md-6">
+                                                    <div class="billing-details pr-10">
+                                                        <h6 class="widget-title border-left mb-20">billing details</h6>
+                                                        <input type="text" name="name" required placeholder="Your Name Here...">
+                                                        <input type="text" name="email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]{1,}\.[a-zA-z]{2,3}" placeholder="Email address here...">
+                                                        <input type="text" name="phone" required pattern="[6-9]\d{9}" placeholder="Phone here...">
+                                                        <select class="custom-select" id="city">
+                                                            <option value="160">Jaipur</option>
+                                                            <option value="140">Varanasi</option>
+                                                            <option value="150">Udaipur</option>
+                                                            <option value="200">Bangalore</option>
+                                                            <option value="100">Delhi</option>
+                                                            <option value="130">Chennai</option>
+                                                            <option value="170">Mysore</option>
+                                                            <option value="150">Agra</option>
+                                                            <option value="200">Kolkata</option>
+                                                            <option value="120">Mumbai</option>
+                                                        </select>
+                                                        <textarea class="custom-textarea" placeholder="Your address here..."></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <!-- our order -->
+                                                    <div class="payment-details pl-10 mb-50">
+                                                        <h6 class="widget-title border-left mb-20">our order</h6>
+                                                        <table id="checkoutProduct">
+                                                        </table>
+                                                        <hr>
+                                                        <table>
+                                                            <tr>
+                                                                <td class="td-title-1">Cart Subtotal</td>
+                                                                <td class="td-title-2" id="checkoutSubtotal">0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-title-1">Vat</td>
+                                                                <td class="td-title-2" id="checkoutVat">0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-title-1">Shipping and Handing</td>
+                                                                <td class="td-title-2" id="checkoutShipping">0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <input type="hidden" value="" id="totalOrder">
+                                                                <td class="order-total">Order Total</td>
+                                                                <td class="order-total-price" id="checkoutTotal">0</td>
+                                                            </tr>
+                                                        </table>
+                                                    </div> 
+                                                    <button class="submit-btn mt-30" type="submit">place order</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- checkout end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SHOP SECTION END -->             
+
+        </section>
+        <!-- End page content -->
+        
+
+        <!-- START FOOTER AREA -->
+        <footer id="footer" class="footer-area">
+            <div class="footer-top">
+                <div class="container-fluid">
+                    <div class="footer-wrapper">
+                        <div class="footer-top-inner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-sm-4">
+                                    <div class="single-footer footer-about">
+                                        <div class="footer-logo">
+                                            <img src="vendor/img/logo/logo.png" alt="">
+                                        </div>
+                                        <div class="footer-brief">
+                                            <p>Rhythm House is a music store in the city which offers not only music but contests and live shows too. It caters to almost all the age groups by providing the CDs, tapes of poems for kids, latest pop music collection for teenagers, etc. Rhythm House also caters to a slightly older age group and boasts of the largest collection of regional and devotional music.</p>
+                                        </div>
+                                        <ul class="footer-social">
+                                            <li>
+                                                <a class="facebook" href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" title="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">My Shop</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/product.html?type=cd"><span>CD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd"><span>DVD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape"><span>Tape</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book"><span>Book</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine"><span>Magazine</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">my account</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/membership.html"><span>My Account</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/cart.html"><span>My Cart</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/login.html"><span>Sign In</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/register.html"><span>Registration</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">Subscribe</h4>
+                                        <div class="footer-message">
+                                            <form action="#">
+                                                <input type="text" name="name" placeholder="Your name here...">
+                                                <input type="text" name="email" placeholder="Your email here...">
+                                                <button class="submit-btn" type="submit">Subcribe</button> 
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom black-bg">
+                <div class="container-fluid">
+                    <div class="footer-bottom-wrapper">
+                        <div class="copyright">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="copyright-text">
+                                        <p>&copy; <a href="#" target="_blank">Team5</a> 2020. All Rights Reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER AREA -->
+    </div>
+    <!-- jquery latest version -->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- Slick jquery carousel -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- Mean menu jquery -->
+    <script src="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/jquery.meanmenu.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="vendor/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var cartDetail = JSON.parse(localStorage.getItem("cartDetail") || `{"cart":[], "subTotal":0, "count":0}`)
+            if (cartDetail.count > 0) {
+                getCart(cartDetail)
+            }
+            $(document).on('click', '.qtybutton', function(){
+                let $button = $(this);
+                let id = $(this).parent().data('id')
+                let product = cartDetail.cart.find(ele => ele.id == id)
+                if ($button.text() == "+") {
+                    addToCart(product, 1)
+                    getCart(JSON.parse(localStorage.getItem("cartDetail")))
+                } 
+                else {
+                    addToCart(product, -1)
+                    getCart(JSON.parse(localStorage.getItem("cartDetail")))
+                }
+            })
+            $(document).on('click', '.removeItem', function(){
+                let id = $(this).data('id')
+                let product = cartDetail.cart.find(ele => ele.id == id)
+                if (typeof product !== "undefined") {
+                    addToCart(product, 0, 'remove')
+                    getCart(JSON.parse(localStorage.getItem("cartDetail")))
+                }
+            })
+            $(document).on('click', '#btnCheckout, #btnCart', function(){
+                $('.cart-tab').children().each(function(i, e){
+                    $(e).children().removeClass('active')
+                })
+                let href = $(this).attr('href')
+                switch (href) {
+                    case '#checkout':
+                        $(this).addClass('active')
+                        getCheckout(JSON.parse(localStorage.getItem("cartDetail")))
+                        break;
+                    case '#shopping-cart':
+                        $(this).addClass('active')
+                        break;
+                }
+            })
+            $(document).on('click', '#btnCart', function(){
+                $('.cart-tab').children()
+                $(this).addClass('active')
+            })
+            $('#city').change(function(e){
+                let shipping = $(this).val()
+                let totalNotShipping = $('#totalOrder').val()
+                $('#checkoutShipping').html(shipping)
+                $('#checkoutTotal').html(parseInt(shipping) + parseInt(totalNotShipping))
+            })
+        });
+        function getCart(data){
+            displayCart()
+            let items = data.cart
+            let x =``
+            items.forEach(ele => 
+                x+=`
+                <tr>
+                    <td class="product-thumbnail">
+                        <div class="pro-thumbnail-img">
+                            <img src="${ele.image}" alt="">
+                        </div>
+                        <div class="pro-thumbnail-info text-left">
+                            <h6 class="product-title-2">
+                                <a href="javascript:void(0)">${ele.name}</a>
+                            </h6>
+                            <p>Category: ${ele.category}</p>
+                            <p>Type: ${ele.type}</p>
+                            <p>Year: ${ele.release}</p>
+                        </div>
+                    </td>
+                    <td class="product-price">${ele.price}</td>
+                    <td class="product-quantity">
+                        <div class="cart-plus-minus" data-id="${ele.id}">
+                            <div class="dec qtybutton">-</div>
+                            <input type="text" value="${ele.qty}" name="qtybutton" class="cart-plus-minus-box">
+                            <div class="inc qtybutton">+</div>
+                        </div> 
+                    </td>
+                    <td class="product-subtotal">${parseInt(ele.price)*parseInt(ele.qty)}</td>
+                    <td class="product-remove">
+                        <a href="javascript:void(0)" class="removeItem" data-id="${ele.id}"><span class="glyphicon glyphicon-trash"></span</a>
+                    </td>
+                </tr>
+                `
+            );
+            $('#cart').html(x)
+            $('#subtotal').html(data.subTotal)
+            let vat = data.subTotal * 0.1
+            $('#vat').html(vat)
+            $('#total').html(vat+data.subTotal)
+        }
+        function getCheckout(data){
+            let items = data.cart
+            let x =``
+            items.forEach(ele => 
+                x+=`
+                <tr>
+                    <td class="td-title-1">${ele.name} x ${ele.qty}</td>
+                    <td class="td-title-2">${ele.price * ele.qty}</td>
+                </tr>
+                `
+            );
+            $('#checkoutProduct').html(x)
+            $('#checkoutSubtotal').html(data.subTotal)
+            let vat = data.subTotal * 0.1
+            $('#checkoutVat').html(vat)
+            let shipping = $('#city').val()
+            $('#checkoutShipping').html(shipping)
+            $('#totalOrder').val(vat+data.subTotal)
+            $('#checkoutTotal').html(vat+data.subTotal+parseInt(shipping))
+        }
+        function sendNotify(self){
+            event.preventDefault()
+            let name = $(self).find('input[name=name]').val()
+            let id = Date.now()
+            let cartDetail = JSON.parse(localStorage.getItem("cartDetail") || `{"cart":[], "subTotal":0, "count":0}`)
+            let point = localStorage.getItem("point") || 0
+            if (cartDetail.subTotal > 200) {
+                point = parseInt(cartDetail.subTotal / 10)
+            }
+            localStorage.removeItem('cartDetail')
+            if (cartDetail.count > 0) {
+                x=`
+                Hello ${name}!
+                Thanks for your order, your Order number is ${id}!
+                Your point pending: ${point}, Pay to get points. 
+                We sent your the invoice to the email you registered, Please check and respond to us if any errors!
+                We will contact you as soon as possbile.
+                Best regards!
+                `
+                alert(x)
+            }
+            window.location.href = 'index.html'
+        }
+    </script>
+</body>
+</html>

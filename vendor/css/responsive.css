@@ -1,0 +1,208 @@
+@media (max-width: 767px) {
+    .header-top-bar {
+        padding: 0;
+    }
+    .top-link > ul.link {
+        float: none;
+        line-height: 1;
+        text-align: center;
+        margin-right: 0;
+    }
+    .top-link > ul.link > li {
+        display: inline-block;
+        float: none;
+    }
+    .header-middle-area{
+        padding: 0;
+        position: static;
+    }
+    .logo {
+        padding: 20px 0 10px;
+        text-align: center;
+    }
+    .container {
+        width: 300px;
+    }
+    .slider-area{
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .slider-info {
+        height: calc(100% - 30px);
+        padding: 5px 10px;
+        width: 70%;
+    }
+    .slider-title {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .slider-brief p {
+        display: none;
+    }
+    .slider-area a.button.extra-small span {
+        font-size: 10px;
+        line-height: 20px;
+        padding: 2px 18px;
+    }
+    .slick-dots .slick-dots {
+        display: none !important;
+    }
+    .slick-arrow .arrow-next.slick-arrow{
+        left: auto;
+        right: 0;
+        color: #666666;
+        font-size: 25px;
+    }
+    .slick-arrow .slick-arrow{
+        color: #666666;
+        font-size: 25px;
+        left: 0;
+    }
+    .footer-top {
+        background: #f6f6f6 none repeat scroll 0 0;
+      }
+    .footer-wrapper{
+        padding: 0;
+    }
+    .footer-bottom-wrapper{
+        padding: 0;
+    }
+    .footer-top-inner {
+        padding: 60px 15px;
+    }
+    .footer-about {
+        padding-right: 15px;
+    }
+    .footer-brief {
+        margin-bottom: 25px;
+    }
+    .footer-title {
+        margin: 30px 0 10px;
+    }
+    .footer-menu li a {
+        line-height: 24px;
+    }
+    .footer-menu li a span {
+        font-size: 11px;
+    }
+    .copyright {
+        padding: 0 15px;
+    }
+    .copyright-text p {
+        text-align: center;
+    }
+    .footer-payment {
+        padding: 0 0 15px;
+        text-align: center;
+    }
+    .blog .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .featured-product .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .albums-sold-section .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .up-comming-pro-2 .up-comming-pro-img{
+        width: 100%;
+    }
+    .up-comming-pro-2 .up-comming-pro-info {
+        padding: 0 15px 20px;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .header-top-bar{
+        padding: 0 30px;
+    }
+    .footer-wrapper{
+        padding: 0;
+    }
+    .footer-bottom-wrapper{
+        padding: 0;
+    }
+    .footer-top {
+        background: #f6f6f6 none repeat scroll 0 0;
+    }
+    .footer-top-inner {
+        padding: 60px 15px;
+    }
+    .footer-about {
+        padding-right: 15px;
+    }
+    .footer-brief {
+        margin-bottom: 25px;
+    }
+    .copyright {
+        padding: 0 15px;
+    }
+    .slider-info {
+        height: calc(100% - 40px);
+        padding: 15px 50px;
+        width: 70%;
+    }
+    .slider-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 5px;
+    }
+    .slider-brief p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .slider-area .slick-arrow .slick-arrow {
+        font-size: 35px;
+        left: -20px;
+    }
+    .slider-area .slick-arrow .arrow-next.slick-arrow {
+        left: auto;
+        right: -20px;
+    }
+    .slider-content-2 .title-container {
+        left: 15%;
+    }
+    .slider-area{
+        padding: 0 30px;
+    }
+    .blog .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .featured-product .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .albums-sold-section .arrow-next.slick-arrow{
+        display: none !important;
+    }
+}
+@media (max-width: 1169px) and (min-width: 992px){
+    .footer-wrapper{
+        padding: 0;
+    }
+    .footer-top-inner {
+        padding: 60px 15px;
+    }
+    .copyright {
+        padding: 0 15px;
+    }
+    .header-middle-area{
+        padding: 0 30px;
+    }
+    .slider-area{
+        padding: 0 30px;
+    }
+    .blog .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .featured-product .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .albums-sold-section .arrow-next.slick-arrow{
+        display: none !important;
+    }
+    .slick-arrow .arrow-next.slick-arrow{
+        display: none !important;
+    }
+}

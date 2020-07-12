@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="vendor/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!-- Slick Css -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- Mean Menu -->
+    <link rel="stylesheet" href="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/meanmenu.min.css" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!-- Main style -->
+    <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- START HEADER -->
+        <header class="header-area header-wrapper">
+            <!-- TOP HEADER -->
+            <div class="header-top-bar">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 hidden-xs">
+                            <div class="call-us">
+                                <p class="roboto">(+88) 01234-567890</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="top-link clearfix">
+                                <ul class="link">
+                                    <li>
+                                        <a href="membership.html">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                            My Account
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html">
+                                            <span class="glyphicon glyphicon-shopping-cart" id="countCart"></span>
+                                            Cart
+                                        </a>
+                                    </li>
+                                    <li id="auth">
+                                        <a href="login.html">
+                                            <span class="glyphicon glyphicon-lock"></span>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MENU HEADER  -->
+            <div class="header-middle-area" id="sticky-header">
+                <div class="container-fluid">
+                    <div class="full-width-mega-dropdown">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-xs-12">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="vendor/img/logo/rhythm_house.png" alt="main logo">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 hidden-sm hidden-xs">
+                                <nav>
+                                    <ul class="main-menu text-center">
+                                        <li><a href="index.html" style="color: #FF7F00; border-bottom:1px solid #FF7F00;">Home</a>
+                                        </li>
+                                        <li class="mega-parent"><a href="product.html">Products</a>
+                                            <div class="mega-menu-area clearfix">
+                                                <div class="mega-menu-link f-left">
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TYPE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=cd">CD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=dvd">DVD</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=tape">Tape</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">TIMES LIFESTYLE</li>
+                                                        <li>
+                                                            <a href="/product.html?type=book">Book</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?type=magazine">Magazine</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="single-mega-item">
+                                                        <li class="menu-title">CATEGORIES</li>
+                                                        <li>
+                                                            <a href="/product.html?category=movie">Movies</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/product.html?category=music">Music</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">Band</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                </div>
+                                                <div class="mega-menu-photo f-left">
+                                                    <a href="#">
+                                                        <img src="vendor/img/mega-menu/1.jpg" alt="mega menu image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="membership.html">Membership</a>
+                                        </li>
+                                        <li><a href="javascript:void(0)">Blog</a>
+                                            <ul class="dropdwn">
+                                                <li>
+                                                    <a href="liveshow.html">Liveshows</a>
+                                                </li>
+                                                <li>
+                                                    <a href="contest.html">Contests</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news.html">Event</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="aboutus.html">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- START MOBILE MENU -->
+        <div class="mobile-menu-area hidden-lg hidden-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-menu">
+                            <nav id="dropdown">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="product.html">Products</a>
+                                        <ul>
+                                            <li>
+                                                <a href="/product.html?type=cd">CD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd">DVD</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape">Tape</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book">Book</a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine">Magazine</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="javascript:void(0)">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="liveshow.html">Liveshows</a>
+                                            </li>
+                                            <li>
+                                                <a href="contest.html">Contests</a>
+                                            </li>
+                                            <li>
+                                                <a href="news.html">Event</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="aboutus.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MOBILE MENU -->
+
+        <!-- START SLIDER -->
+        <div class="slider-area">
+            <div class="container-fluid">
+                <div class="slider-content">
+                    <div class="row">
+                        <div class="active-slider slick-arrow slick-dots">
+                            <!-- layer-1 Start -->
+                            <div class="col-md-12">
+                                <div class="layer">
+                                    <div class="slider-img">
+                                        <img src="vendor/img/product/slider/shut_down.jpg" alt="">
+                                    </div>
+                                    <div class="slider-info gray-bg">
+                                        <div class="slider-info-inner">
+                                            <h1 class="slider-title text-uppercase text-black-1">Shutdown</h1>
+                                            <div class="slider-brief text-black-2">
+                                                <p>The COVID-19 lockdown brought the entertainment industry almost to a standstill. However, independent music composers have been working from home and unveiling singles from time to time. Days after the partnership between Mass Appeal India and hip hop artist Divine’s Gully Gang made news, their first album Shutdown is out, and is a compilation of eight songs that try to dispel the lockdown blues.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- layer-1 end -->
+                            <!-- layer-1 Start -->
+                            <div class="col-md-12">
+                                <div class="layer">
+                                    <div class="slider-img">
+                                        <img src="vendor/img/product/van_weezer.jpg" alt="">
+                                    </div>
+                                    <div class="slider-info gray-bg">
+                                        <div class="slider-info-inner">
+                                            <h1 class="slider-title text-uppercase text-black-1">Van Weezer</h1>
+                                            <div class="slider-brief text-black-2">
+                                                <p>Van Weezer is Weezer’s 14th studio album, and was set to release on May 15th, 2020 before the album’s release date was postponed indefinitely by Rivers Cuomo due to the COVID-19 pandemic. “Last album we didn’t have any guitars, this one is just all guitars.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- layer-1 end -->
+                            <!-- layer-1 Start -->
+                            <div class="col-md-12">
+                                <div class="layer">
+                                    <div class="slider-img">
+                                        <img style="border: 1px solid black;" src="vendor/img/product/slider/chromatica.jpg" alt="">
+                                    </div>
+                                    <div class="slider-info gray-bg">
+                                        <div class="slider-info-inner">
+                                            <h1 class="slider-title text-uppercase text-black-1">Chromatica</h1>
+                                            <div class="slider-brief text-black-2">
+                                                <p>is the sixth studio album by American singer Lady Gaga. It was released on May 29, 2020, by Streamline and Interscope Records. Originally scheduled for April 10, 2020, the album's release was delayed for seven weeks, due to the COVID-19 pandemic.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- layer-1 end -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SLIDER -->
+
+        <!-- START PAGE CONTENT -->
+        <section class="page-wrapper">
+            <!-- BLOG SECTION START -->
+            <div class="blog-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-left mb-40">
+                                <h2 class="uppercase">Latest Liveshow</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="row active-blog">
+                            <!-- blog-item start -->
+                            <div class="col-xs-12">
+                                <div class="blog-item">
+                                    <img src="vendor/img/product/khalid_concert.jpg" alt="">
+                                    <div class="blog-desc">
+                                        <h5 class="blog-title"><a data-toggle="modal" data-target="#blogModal1" href="javascript:void(0)">Khalid - Free Spirit - Asia Tour 2020</a></h5>
+                                        <p>Comming soon</p>
+                                        <p>Multi-platinum selling global superstar Khalid, who was recently named one of Time’s Most Influential People of 2019, recently released his sophomore album Free Spirit which was declared a New York Times “Critic’s Pick” and was called “superb” by the Associated Press.</p>
+                                        <div class="read-more">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal1">Read more</a>
+                                        </div>
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-favorite"></i>5481 Like</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-share"></i>2000 Share</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- blog-item end -->
+                            <!-- blog-item start -->
+                            <div class="col-xs-12">
+                                <div class="blog-item">
+                                    <img src="vendor/img/product/festivals-of-festivals.jpg" alt="">
+                                    <div class="blog-desc">
+                                        <h5 class="blog-title"><a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal2">Festival of Festivals</a></h5>
+                                        <p>Comming soon</p>
+                                        <p>Our country is a combination of many languages, cultures, food, literature, fashion and our people is what brings all this together.</p>
+                                        <div class="read-more">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal2">Read more</a>
+                                        </div>
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-favorite"></i>240 Like</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-share"></i>89 Share</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- blog-item end -->
+                            <!-- blog-item start -->
+                            <div class="col-xs-12">
+                                <div class="blog-item">
+                                    <img src="vendor/img/product/beatles_tribute_insta_live.jpg" alt="">
+                                    <div class="blog-desc">
+                                        <h5 class="blog-title"><a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal3">Beatles Tribute Insta Live</a></h5>
+                                        <p>Oh Darling! Does Yesterday seem so far away? Do you need a little help from your friends to cheer you up this lockdown? Then join The Beatles Tribute Vocalist  on a magical mystery tour  live online  for the first time ever as we come together to send you all our loving on Instagram.</p>
+                                        <div class="read-more">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal3">Read more</a>
+                                        </div>
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-favorite"></i>589 Like</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-share"></i>215 Share</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- blog-item end -->
+                            <!-- blog-item start -->
+                            <div class="col-xs-12">
+                                <div class="blog-item">
+                                    <img src="vendor/img/product/sunburn_club_card.jpg" alt="">
+                                    <div class="blog-desc">
+                                        <h5 class="blog-title"><a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal4">Sunburn Club Card 2020 - 2021</a></h5>
+                                        <p>Are you a Sunburn fan? Introducing for the very first time ever - Sunburn Club Card that offers a variety of exciting benefits at Sunburn events that you would not want to miss. 10 Benefits – 1 Club - check out what we have in store for you!! Limited Early Bird offer starting at Rs. 999/- only!</p>
+                                        <div class="read-more">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#blogModal4">Read more</a>
+                                        </div>
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-favorite"></i>1064 Like</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-share"></i>500 Share</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- blog-item end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BLOG SECTION END -->  
+
+            <!-- FEATURED PRODUCT SECTION START -->
+            <div class="featured-product-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-left mb-40">
+                                <h2 class="uppercase">Featured product</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="featured-product">
+                        <div class="row active-featured-product slick-arrow-2" id="myProduct">
+                            <!-- product-item start -->
+                            <div class="col-xs-12">
+                                <div class="product-item" data-id="product29">
+                                    <div class="product-img">
+                                        <a href="javascript:void(0)" class="modalProduct">
+                                            <img src="/vendor/img/product/cd/chromatica_lady_gaga.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                    <div class="product-info" data-id="product29">
+                                        <h6 class="product-title">
+                                            <a href="javascript:void(0)">Chromatica</a>
+                                        </h6>
+                                        <h6 class="pro-price">CD</h6>
+                                        <h3 class="pro-price">1130 Rs</h3>
+                                        
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="product29">
+                                                <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product-item end -->
+                            <!-- product-item start -->
+                            <div class="col-xs-12">
+                                <div class="product-item" data-id="product12">
+                                    <div class="product-img">
+                                        <a href="javascript:void(0)" class="modalProduct">
+                                            <img src="/vendor/img/product/magazine/guitarist.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                    <div class="product-info" data-id="product12">
+                                        <h6 class="product-title">
+                                            <a href="single-product.html">Guitarist</a>
+                                        </h6>
+                                        <h6 class="pro-price">Magazine</h6>
+                                        <h3 class="pro-price">970 Rs</h3>
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="product12">
+                                                <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product-item end -->
+                            <!-- product-item start -->
+                            <div class="col-xs-12">
+                                <div class="product-item" data-id="product33">
+                                    <div class="product-img">
+                                        <a href="javascript:void(0)">
+                                            <img src="/vendor/img/product/cd/shutdown.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                    <div class="product-info" data-id="product33">
+                                        <h6 class="product-title">
+                                            <a href="single-product.html">Shutdown</a>
+                                        </h6>
+                                        <h6 class="pro-price">CD</h6>
+                                        <h3 class="pro-price">650 Rs</h3>
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="product33">
+                                                <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product-item end -->
+                            <!-- product-item start -->
+                            <div class="col-xs-12">
+                                <div class="product-item" data-id="product14">
+                                    <div class="product-img">
+                                        <a href="javascript:void(0)" class="modalProduct">
+                                            <img src="/vendor/img/product/magazine/bbc_music_magazine.jpg"alt=""/>
+                                        </a>
+                                    </div>
+                                    <div class="product-info" data-id="product14">
+                                        <h6 class="product-title">
+                                            <a href="single-product.html">BBC Music Magazine</a>
+                                        </h6>
+                                        <h6 class="pro-price">Magazine</h6>
+                                        <h3 class="pro-price">4200 Rs</h3>
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="product14">
+                                                <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product-item end -->
+                            <!-- product-item start -->
+                            <div class="col-xs-12">
+                                <div class="product-item" data-id="product15">
+                                    <div class="product-img">
+                                        <a href="javascript:void(0)" class="modalProduct">
+                                            <img src="/vendor/img/product/magazine/stereophile.jpg" alt=""/>
+                                        </a>
+                                    </div>
+                                    <div class="product-info" data-id="product15">
+                                        <h6 class="product-title">
+                                            <a href="single-product.html">Stereophile</a>
+                                        </h6>
+                                        <h6 class="pro-price">Magazine</h6>
+                                        <h3 class="pro-price">650 Rs</h3>
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="product15">
+                                                <a href="javascript:void(0)" class="addToCart" title="Add to cart"><span class="
+                                                    glyphicon glyphicon-shopping-cart"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product-item end -->
+                        </div>
+                    </div>          
+                </div>            
+            </div>
+            <!-- FEATURED PRODUCT SECTION END -->
+
+            <!-- ALBUMS SOLD SECTION START -->
+            <div class="albums-sold-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title text-left mb-40">
+                                <h2 class="uppercase">Album sold monthly</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row active-albums-sold slick-arrow-2">
+                        <!-- up-comming-pro -->
+                        <div class="col-xs-12">
+                            <div class="banner-item banner">
+                                <div class="ribbon-price">
+                                    <span>999 Sold</span>
+                                </div>
+                                <div class="banner-img">
+                                    <a href="#"><img src="vendor/img/product/chromatica_lady_gaga.jpg" alt=""></a>
+                                </div>
+                                <div class="banner-info">
+                                    <h3><a href="#" style="color: aliceblue;">Chromatica</a></h3>
+                                    <ul class="banner-featured-list">
+                                        
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: aquamarine;">Best sellest</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: aquamarine;">29 albums/1 day</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: aquamarine;">Just 3 item in stock</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: aquamarine;">Chromatica
+                                                is the sixth studio album </span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: aquamarine;">by American singer Lady Gaga</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="banner-item banner">
+                                <div class="ribbon-price">
+                                    <span>799 Sold</span>
+                                </div>
+                                <div class="banner-img">
+                                    <a href="#"><img src="vendor/img/product/lover_taylor_swift_.jpg" alt=""></a>
+                                </div>
+                                <div class="banner-info">
+                                    <h3><a href="#" style="color: aliceblue;">Lover</a></h3>
+                                    <ul class="banner-featured-list">
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: darkblue;">Most Viewed</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: darkblue;">20 albums/1 day</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: darkblue;">Less in stock</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: darkblue;">Lover
+                                                is the seventh studio album  </span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: darkblue;">by American singer-songwriter Taylor Swift.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="banner-item banner">
+                                <div class="ribbon-price">
+                                    <span>9000000 Sold</span>
+                                </div>
+                                <div class="banner-img">
+                                    <a href="#"><img src="vendor/img/product/AbbeyRoad.jpg" alt=""></a>
+                                </div>
+                                <div class="banner-info">
+                                    <h3><a href="#" style="color: aliceblue;">Abbey Road</a></h3>
+                                    <ul class="banner-featured-list">
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: greenyellow;">Best Album Forever</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: greenyellow;">9 Million Album Sold</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: greenyellow;">Order Now</span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: greenyellow;">Abbey Road  </span>
+                                        </li>
+                                        <li>
+                                            <i class="zmdi zmdi-check"></i><span style="color: greenyellow;"> the great Beatles album Abbey Road.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ALBUMS SOLD SECTION END -->
+        </section>
+        <!-- END PAGE CONTENT -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/1.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Dummy Product Name </h3>
+                                <h6 class="brand-name-2">brand name</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>There are many variations of passages of Lorem Ipsum available, but the majo Rity have be suffered alteration in some form, by injected humou or randomis Rity have be suffered alteration in some form, by injected humou or randomis words which donot look even slightly believable. If you are going to use a passage Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-plus-minus clearfix">
+                                        <p class="color-title">Qty</p>
+                                        <div class="cart-plus-minus">
+                                            <input type="text" id="qtyModal" value="1" min="1" name="qtybutton" class="cart-plus-minus-box">
+                                        </div>   
+                                    </div>
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" data-id="" class="btn btn-primary modalCart">Add to cart</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="blogModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/khalid_concert.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Khalid - Free Spirit - Asia Tour 2020</h3>
+                                <h6 class="brand-name-2">Hip Hop, Pop | English | 14+ | 3hrs</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>Multi-platinum selling global superstar Khalid, who was recently named one of Time’s Most Influential People of 2019, recently released his sophomore album Free Spirit which was declared a New York Times “Critic’s Pick” and was called “superb” by the Associated Press. The album, which has been certified platinum by the RIAA, debuted at #1 on the Billboard Top 200 and features the multi-format #1 single “Talk”.  Khalid catapulted into massive worldwide success when he released his first single “Location” right before his high school graduation. The song’s domination (5x platinum) led to Khalid’s major label deal with Right Hand Music Group/RCA Records followed by the release of his debut album, the double platinum-certified, American Teen. The album, which garnered Khalid 5 Grammy nominations (along with numerous other nominations) received mass critical acclaim with Rolling Stone calling Khalid a “pop prodigy” and TIME Magazine stating, “His thoughtful, relatable reflections on modern youth culture and the limitations of love are just as pitch-perfect as his soulful, measured delivery.”American Teen shattered expectations, as it stayed in the Top 200 for 51 weeks, peaked at #4, and stayed in the Top 20 for 48 out of the 51 weeks it was in the Top 200.</p>
+                                            <p>The singer-songwriter has won 4 American Music Awards, a Billboard Music Award, 2 Teen Choice Awards, a MTV Video Music Awards, an MTV’s Woodie To Watch Award, and has been streamed over 10 billion times worldwide across all partners. Khalid has collaborated with some of music’s biggest stars including his #1 singles “Love Lies” (with Normani), “Eastside” (with Halsey and Benny Blanco) as well as hits with artists such as  Calvin Harris (“Rollin’”), Logic and Alessia Cara (“1-800-273-8255”), Marshmello (“Silence”), Billie Eilish (“Lovely”), Shawn Mendes (“Youth”), and more. The Mayor and Council of the City of El Paso honoured him with a “Key To The City” marking September 13th, 2018 “Khalid Day.” Khalid is currently on his “Free Spirit World Tour” which will take him to arenas all over the globe in 2019.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" disabled class="btn btn-primary">Comming soon</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="blogModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/festivals-of-festivals.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Festival of Festivals</h3>
+                                <h6 class="brand-name-2">Concerts | English, Hindi</h6>
+                                <h6 class="brand-name-2">Sun 16 Aug 2020</h6>
+                                <h6 class="brand-name-2">Location: Mumbai</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>An Initiative of Event Capital and BookMyShow</p>
+                                            <p>Our country is a combination of many languages, cultures, food, literature, fashion and our people is what brings all this together. We are filled with innumerable talent. Our passion to excel has pushed us to innovate and improvise, especially at times like this. Our goal in the event business is to entertain and inspire people. Here, at Event Capital and BookMyShow, we want to push the boundaries a little and imagine something new….</p>
+                                            <p>A 3-day digital event, 14-16 August 2020, bringing together festivals across all genres from India… A Festival of Festivals. With years of building the audience through curation and production, you have grown over the years. Your festival has been the epitome of shaping your community. Event Capital and BookMyShow are companies where we have developed many such festivals and we would like to extend the invitation for you to be a part of this innovative idea. Come be a part of something new!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" disabled class="btn btn-primary">Comming soon</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="blogModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/beatles_tribute_insta_live.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Beatles Tribute Insta Live </h3>
+                                <h6 class="brand-name-2">Rock, Hard Rock | English | 1hr</h6>
+                                <h6 class="brand-name-2">Saturday 7/11/2020</h6>
+                                <h6 class="brand-name-2">Location: Delhi</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>Oh Darling! Does Yesterday seem so far away? Do you need a little help from your friends to cheer you up this lockdown? Then join The Beatles Tribute Vocalist  on a magical mystery tour  live online  for the first time ever as we come together to send you all our loving on Instagram.  Hurry get your ticket to ride!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" disabled class="btn btn-primary">Comming soon</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="modal fade" id="blogModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="/vendor/img/product/sunburn_club_card.jpg" style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-12"> 
+                            <div class="single-product-info">
+                                <h3 class="text-black-1">Sunburn Club Card 2020 - 2021</h3>
+                                <h6 class="brand-name-2">EDM | English | 15+ | 24hrs</h6>
+                                <h6 class="brand-name-2">Till Wed 31st March 2021- 12:00 AM IST</h6>
+                                <h6 class="brand-name-2">Location: Valid Across All Sunburn Events</h6>
+                                <h6 class="brand-name-2">Fee: 999Rs</h6>
+                                <!-- hr -->
+                                <hr>
+                                <!-- single-product-tab -->
+                                <div class="single-product-tab">
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="description">
+                                            <p>Are you a Sunburn fan? Introducing for the very first time ever - Sunburn Club Card that offers a variety of exciting benefits at Sunburn events that you would not want to miss. 10 Benefits – 1 Club - check out what we have in store for you!! Limited Early Bird offer starting at Rs. 999/- only!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  hr -->
+                                <!-- plus-minus-pro-action -->
+                                <div class="plus-minus-pro-action">
+                                    <div class="sin-pro-action">
+                                        <ul class="action-button">
+                                            <li>
+                                                <input type="hidden" value="" class="modalProductId">
+                                                <button type="button" class="btn btn-primary">Register</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- START FOOTER AREA -->
+        <footer id="footer" class="footer-area">
+            <div class="footer-top">
+                <div class="container-fluid">
+                    <div class="footer-wrapper">
+                        <div class="footer-top-inner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-5 col-sm-4">
+                                    <div class="single-footer footer-about">
+                                        <div class="footer-logo">
+                                            <img src="vendor/img/logo/logo.png" alt="">
+                                        </div>
+                                        <div class="footer-brief">
+                                            <p>Rhythm House is a music store in the city which offers not only music but contests and live shows too. It caters to almost all the age groups by providing the CDs, tapes of poems for kids, latest pop music collection for teenagers, etc. Rhythm House also caters to a slightly older age group and boasts of the largest collection of regional and devotional music.</p>
+                                        </div>
+                                        
+                                        <ul class="footer-social">
+                                            <li>
+                                                <a class="facebook" href="" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="google-plus" href="" title="Google Plus"><i class="fab fa-google-plus-g"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="twitter" href="" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">My Shop</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/product.html?type=cd"><span>CD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=dvd"><span>DVD</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=tape"><span>Tape</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=book"><span>Book</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/product.html?type=magazine"><span>Magazine</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">my account</h4>
+                                        <ul class="footer-menu">
+                                            <li>
+                                                <a href="/membership.html"><span>My Account</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/cart.html"><span>My Cart</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/login.html"><span>Sign In</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="/register.html"><span>Registration</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="single-footer">
+                                        <h4 class="footer-title border-left">Subscribe</h4>
+                                        <div class="footer-message">
+                                            <form action="#">
+                                                <input type="text" name="name" placeholder="Your name here...">
+                                                <input type="text" name="email" placeholder="Your email here...">
+                                                <button class="submit-btn" type="submit">Subcribe</button> 
+                                            </form>
+                                            <br>
+                                            <audio controls autoplay>
+                                                <source src="/vendor/audio/MeditationPeacefulRelaxingSoothing.mp3" type="audio/mp3">
+                                            </audio>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom black-bg">
+                <div class="container-fluid">
+                    <div class="footer-bottom-wrapper">
+                        <div class="copyright">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="copyright-text">
+                                        <p>&copy; <a href="#" target="_blank">Team5</a> 2020. All Rights Reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER AREA -->
+    </div>
+    <!-- jquery latest version -->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- Slick jquery carousel -->
+    <script src="vendor/slick/slick.min.js"></script>
+    <!-- Mean menu jquery -->
+    <script src="vendor/jQuery-Plugin-for-Responsive-Menu-System-meanMenu/jquery.meanmenu.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="vendor/js/main.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            var products
+            $.ajax({
+                url: '/product.json',
+                type: 'GET',
+            })
+            .done(function(data) {
+                products = data
+            });
+
+            $('.addToCart').click(function(e){
+                let id = $(this).prev().val()
+                const product = products.find(ele => ele.id == id);
+                addToCart(product, 1)
+                displayCart()
+                alert('Successfully add item into cart, Please check cart now!')
+            })
+            $(document).on('click', '.product-img, .product-title', function () {
+                let id = $(this).parent().data('id')
+                let product = products.filter(ele => ele.id == id)
+                addModal(product[0])
+                $('#exampleModal').modal('show')
+            })
+            $(document).on('click', '.modalCart', function () {
+                let qty = $('#qtyModal').val()
+                let id = $('.modalProductId').val()
+                const product = products.find(ele => ele.id == id);
+                addToCart(product, parseInt(qty))
+                displayCart()
+            })
+            $(document).on('click', '.blog-item', function(){
+                let selector = $(this).find('.blog-title').children().data('target')
+                $(`${selector}`).modal('show')
+            })
+        })
+        function addModal(data) {
+            let x =`
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="imgs-zoom-area"><img id="zoom_03" src="${data.image}" style="width: 100%;" alt=""></div>
+                </div>
+                <div class="col-md-7 col-sm-7 col-xs-12"> 
+                    <div class="single-product-info">
+                        <h3 class="text-black-1">${data.name} </h3>
+                        <h6 class="brand-name-2">${data.type.toUpperCase()} (${data.category.toUpperCase()})</h6>
+                        <!-- hr -->
+                        <hr>
+                        <!-- single-product-tab -->
+                        <div class="single-product-tab">
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="description">
+                                    ${data.description}
+                                </div>
+                            </div>
+                        </div>
+                        <!--  hr -->
+                        <!-- plus-minus-pro-action -->
+                        <div class="plus-minus-pro-action">
+                            <div class="sin-plus-minus clearfix">
+                                <p class="color-title">Qty</p>
+                                <div class="cart-plus-minus">
+                                    <div class="dec qtybutton">-</div>
+                                    <input type="text" id="qtyModal" value="1" min="1" name="qtybutton" class="cart-plus-minus-box">
+                                    <div class="inc qtybutton">+</div>
+                                </div>   
+                            </div>
+                            <div class="sin-pro-action">
+                                <ul class="action-button">
+                                    <li>
+                                        <input type="hidden" value="${data.id}" class="modalProductId">
+                                        <button type="button" data-id="" class="btn btn-primary modalCart">Add to cart</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            `
+            $('.modal-body').html(x)
+        }
+    </script>
+</body>
+</html>
