@@ -19,7 +19,7 @@ Project title: Rhythm House
 
 ============================
 
-eProject documentation at https://haruyuki7121994.github.io/rhythm.github.io/
+eProject documentation at https://github.com/haruyuki7121994/rhythm.github.io/tree/master/documentation
 
 ============================
 
